@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7ea07e;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+main {
+    padding: 20px;
+    background-color: #c9d4c9;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    border: 3px groove #7ea07e;
+    border-radius: 10%;
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 48%;
+}
+
+.content img {
+    margin-right: 10px;
+}
+
+.accessibility {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+button{
+    background-image: url('https://www.sistemafibra.org.br/senai/transparencia/images/icones/senai-font-size.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.accessibility-options {
+    display: none;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.a{
+    background-image: none;
+    border-radius: 10%;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    height: 80px;
+}
+.accessibility-options button {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #7ea07e;
+    position: relative;
+}
+
+.fo{
+    text-align: center;
+}
